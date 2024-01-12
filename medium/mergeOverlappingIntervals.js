@@ -1,6 +1,6 @@
 function mergeOverlappingIntervals(array) {
-    "intervals": [[1, 2], [3, 5], [4, 7], [6, 8], [9, 10]]
-    [[1, 2], [3, 8], [9, 10]]
+    // "intervals": [[1, 2], [3, 5], [4, 7], [6, 8], [9, 10]]
+    // [[1, 2], [3, 8], [9, 10]]
     const sortArr = array.sort((a, b) => a[0] - b[0]);
 
     const merged = [];

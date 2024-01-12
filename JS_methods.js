@@ -1,9 +1,9 @@
-const arr = [1, 2, 3]
+const arr11 = [1, 2, 3]
 const arr22 = [6, 7, 8]
 const comb = [0, ...arr, 99, ...arr22][0, 1, 2, 3, 99, 6, 7, 8]
-function some(x, ...rest)
+// function some(x, ...rest)
 
-const checkArr = arr != null ? arr : arr22;
+const checkArr = arr11 != null ? arr11 : arr22;
 const checkArr1 = arr ?? arr22;
 
 const obj = { name: 'Tom', age: 25 }
@@ -86,3 +86,35 @@ window.getComputedStyle(list[0].fontSize)
 
 
 
+': key1:text1,key2:text2, '
+{
+    key1: 'text2',
+        key2: "text2"
+}
+const arr = strg.split(',') // [ 'key1:texrt1', 'key1:texrt1 ' , ' key1:texrt1 ']
+const arr2 = arr.map(val => val.split(':'))[['key', 'text1'], ['key', 'text1'], ['key', 'text1']]
+const obj = {};
+
+for (let i = 0; i < arr2.length; i++) {
+    obj[arr2[i][0]] = arr2[i][1]
+    obj[key] = text1
+
+}
+
+if (pool.length < 11 || !pool.includes(8)) return '0';
+
+if (11 <= pool.length && pool.length < 22 && pool.includes('8')) return '1';
+if (pool.length === 22 && pool.includes('8') && pool.includes('8', -1)) return '1';
+
+
+
+let num = 78
+Math.abs(num)
+Math.pow(num) // num^2
+Math.sqrt(num)//num
+Math.ceil(num)
+Math.floor(num)
+Math.round(num)
+Number.isInteger(num)// true/fale
+Number.parseInt('str')// convert to number
+num.toFixed(2)// 0,33
